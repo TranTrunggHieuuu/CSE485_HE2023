@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\channel;
 use Illuminate\Http\Request;
 
 class ChannelController extends Controller
@@ -11,7 +12,8 @@ class ChannelController extends Controller
      */
     public function index()
     {
-        return view('channel.index');
+        $channels = Channel::orderBy('ChannelID');
+        return view('channel.index',compact("channels"));
     }
 
     /**
