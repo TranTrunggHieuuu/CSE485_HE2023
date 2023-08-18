@@ -53,7 +53,7 @@
     <main>
         <h3 class="text-primary text-center my-3">Channel Management</h3>
         <div class="mb-3 text-end">
-            <a href="" class="btn btn-primary">Add New Employee</a>
+            <a href="" class="btn btn-primary">Add New Channel</a>
         </div>
         <table class="table table-bordered">
             <thead>
@@ -76,6 +76,15 @@
                     <td>{{$cha->URL}}</td>
                     <td>{{$cha->created_at}}</td>
                     <td>{{$cha->updated_at}}</td>
+                    <td>
+                        <a href=""><i class="bi bi-eye"></i><</a>
+                    </td>
+                    <td>
+                        <a href=""><i class="bi bi-pencil-square"></i></i><</a>
+                    </td>
+                    <td>
+                        <a href=""><i class="bi bi-trash-fill"></i></i><</a>
+                    </td>
                     <td>
             </thead>
             @endforeach
