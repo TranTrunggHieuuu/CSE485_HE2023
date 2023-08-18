@@ -12,7 +12,7 @@ class ChannelController extends Controller
      */
     public function index()
     {
-        $channels = Channel::orderBy('ChannelID');
+        $channels = Channel::all();
         return view('channel.index',compact("channels"));
     }
 
