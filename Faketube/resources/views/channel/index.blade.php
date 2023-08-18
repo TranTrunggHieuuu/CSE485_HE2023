@@ -80,12 +80,12 @@
                         <a href=""><i class="bi bi-eye"></i><</a>
                     </td>
                     <td>
-                        <a href=""><i class="bi bi-pencil-square"></i></i><</a>
+                        <a href=""><i class="bi bi-pencil-square"></i><</a>
                     </td>
                     <td>
-                        <a href=""><i class="bi bi-trash-fill"></i></i><</a>
+                        <a href=""><i class="bi bi-trash-fill"></i><</a>
                     </td>
-                    <td>
+
             </thead>
             @endforeach
             <tbody>
