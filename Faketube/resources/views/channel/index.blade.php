@@ -78,8 +78,9 @@
                     <td>{{$cha->updated_at}}</td>
                     <td>
             </thead>
-            <tbody>
             @endforeach
+            <tbody>
+
     </tbody>
     </table>
     </main>
